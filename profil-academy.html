@@ -1,0 +1,64 @@
+<!-- profil.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Coding  Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-indigo-800 text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wider">CODING<span class="text-indigo-300"> ACADEMY</span></h1>
+            <div class="space-x-6">
+                <a href="profil.html" class="border-b-2 border-white pb-1">Profil</a>
+                <a href="coding-academy.html" class="hover:text-indigo-200 transition">Gallery</a>
+                <a href="coding-academy.html?view=pendaftaran" class="hover:text-indigo-200 transition">Pendaftaran</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Profile -->
+    <main class="container mx-auto px-6 py-12">
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div class="md:flex">
+                <div class="md:shrink-0">
+                    <img class="h-64 w-full object-cover md:h-full md:w-80" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Tim Coding Academy">
+                </div>
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Tentang Kami</div>
+                    <h2 class="block mt-1 text-3xl leading-tight font-bold text-black">Membangun Masa Depan Melalui Kode</h2>
+                    <p class="mt-4 text-gray-600">Coding Academy didirikan pada tahun 2020 dengan misi untuk menjembatani kesenjangan antara dunia pendidikan dan kebutuhan industri teknologi. Kami telah melatih lebih dari 5.000 siswa di seluruh Indonesia.</p>
+
+                    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="font-bold text-indigo-700">Visi</h3>
+                            <p class="text-sm text-gray-600 italic">"Menjadi katalisator transformasi digital nomor satu di Asia Tenggara."</p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-indigo-700">Misi</h3>
+                            <ul class="text-sm text-gray-600 list-disc ml-4">
+                                <li>Kurikulum berbasis industri</li>
+                                <li>Pengajar praktisi berpengalaman</li>
+                                <li>Dukungan karir seumur hidup</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="mt-10">
+                        <a href="coding-academy.html?view=pendaftaran" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-indigo-700 transition shadow-lg">
+                            Daftar Sekarang &rarr;
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-10 text-gray-500 text-sm">
+        &copy; 2024 Coding Academy. Hak Cipta Dilindungi.
+    </footer>
+</body>
+</html>

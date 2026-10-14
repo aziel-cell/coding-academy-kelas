@@ -1,0 +1,101 @@
+<!-- Gallery.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Kegiatan - Coding Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-indigo-800 text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wider">CODING<span class="text-indigo-300">ACADEMY</span></h1>
+            <div class="space-x-6">
+                <a href="profil.html" class="hover:text-indigo-200 transition">Profil</a>
+                <a href="Gallery.html" class="border-b-2 border-white pb-1">Gallery</a>
+                <a href="coding-academy.html" class="hover:text-indigo-200 transition">Pendaftaran</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Galeri -->
+    <main class="container mx-auto px-6 py-12">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800">Dokumentasi Pelatihan</h2>
+            <p class="text-gray-600 mt-2">Melihat lebih dekat keseruan belajar dan berkarya di Coding Academy</p>
+        </div>
+
+        <!-- Grid Galeri -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Item 1: Suasana Kelas -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+                     class="w-full h-64 object-cover transition duration-500 group-hover:scale-110" alt="Suasana Kelas">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                    <p class="text-white font-medium">Workshop Web Development Intensif</p>
+                </div>
+            </div>
+
+            <!-- Item 2: Kerja Tim -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                     class="w-full h-64 object-cover transition duration-500 group-hover:scale-110" alt="Kerja Tim">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                    <p class="text-white font-medium">Kolaborasi Proyek Akhir Siswa</p>
+                </div>
+            </div>
+
+            <!-- Item 3: Lab Komputer -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
+                     class="w-full h-64 object-cover transition duration-500 group-hover:scale-110" alt="Lab Komputer">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                    <p class="text-white font-medium">Fasilitas Lab Komputer Modern</p>
+                </div>
+            </div>
+
+            <!-- Item 4: Mentoring -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                     class="w-full h-64 object-cover transition duration-500 group-hover:scale-110" alt="Mentoring">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                    <p class="text-white font-medium">Sesi Mentoring One-on-One</p>
+                </div>
+            </div>
+
+            <!-- Item 5: Presentasi -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1475721027187-402ad2989a3b?auto=format&fit=crop&w=800&q=80"
+                     class="w-full h-64 object-cover transition duration-500 group-hover:scale-110" alt="Presentasi">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                    <p class="text-white font-medium">Presentasi Hasil Project Showcase</p>
+                </div>
+            </div>
+
+            <!-- Item 6: Sertifikat -->
+            <div class="group relative overflow-hidden rounded-2xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+                     class="w-full h-64 object-cover transition duration-500 group-hover:scale-110" alt="Graduation">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                    <p class="text-white font-medium">Sesi Penyerahan Sertifikat Kelulusan</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA ke Pendaftaran -->
+        <div class="mt-16 bg-indigo-900 rounded-3xl p-10 text-center text-white shadow-2xl">
+            <h3 class="text-2xl font-bold mb-4">Ingin bergabung dalam keseruan ini?</h3>
+            <p class="mb-8 opacity-80">Daftarkan dirimu sekarang dan mulai perjalanan karir IT-mu bersama kami.</p>
+            <a href="coding-academy.html" class="bg-white text-indigo-900 px-8 py-3 rounded-full font-bold hover:bg-indigo-100 transition">
+                Daftar Sekarang
+            </a>
+        </div>
+    </main>
+
+    <footer class="text-center py-10 text-gray-500 text-sm border-t border-gray-200">
+        &copy; 2024 Coding Academy. Build Your Future with Code.
+    </footer>
+</body>
+</html>
